@@ -1,0 +1,243 @@
+body {
+    font-family: "Avenir Next";
+}
+
+li {
+    list-style: none;
+}
+
+header {
+    height: 65px;
+    width: 200px;
+    background-color: rgba(255, 255, 255, 0.9);
+    /* Ubah position ke fixed, dan top ke 0 */
+}
+
+.logo-wira {
+    float: left;
+    width: 200px;
+    margin: 10px 10px;
+}
+
+.container {
+    width: 1000px;
+    padding: 0 15px;
+    margin: 0 auto;
+
+}
+
+.header-list li {
+    float: left;
+    font-size: 20px;
+    margin-left: 40px;
+    padding: 20px 20px;
+    color: #2980b9;
+    font-family: 'Gill Sans';
+    letter-spacing: 1.5px;
+}
+
+.header-right {
+    float: right;
+    padding: 20px 10px;
+}
+
+.main {
+    padding: 0px 100px;
+    background-color: whitesmoke;
+    text-align: center;
+    height: 400px;
+}
+
+.copy-container h1 {
+    font-size: 40px;
+    letter-spacing: 4px;
+    opacity: 0.5;
+
+}
+
+.copy-container h2 {
+    font-size: 30px;
+    letter-spacing: 2px;
+    opacity: 0.5;
+}
+
+.contents {
+    padding: 10px 85px;
+    margin-top: 50px;
+}
+
+
+
+.contents-item {
+    width: 200px;
+    float: left;
+    margin-right: 40px;
+
+}
+
+.contents-item p {
+    font-size: 14px;
+    margin-top: 100px;
+
+
+}
+
+.tamu {
+    width: 100%;
+    height: 100%;
+    float: left;
+
+}
+
+.kantor {
+    width: 200px;
+    height: 140px;
+    float: left;
+}
+
+.makan {
+    width: 200px;
+    float: left;
+}
+
+.tidur {
+    width: 200px;
+    height: 140px;
+    float: left;
+    padding-right: 10px;
+
+}
+
+.contact-form {
+    font-family: 'Segoe UI';
+    padding-top: 10px;
+    height: 100%;
+    font-weight: bold;
+
+}
+
+/* Tambahkan CSS untuk tags <input> dan <textarea> */
+input,
+textarea {
+    width: 400px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 20px;
+    font-size: 18px;
+    border: 1px solid RED;
+}
+
+/* Tambahkan CSS untuk contact-submit */
+.contact-submit {
+    background-color: #dee7ec;
+    color: #889eab;
+}
+
+.heading h3 {
+    font-weight: normal;
+}
+
+.message-wrapper {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 80px;
+    text-align: center;
+}
+
+.message {
+    padding: 15px 40px;
+    background-color: #5dca88;
+    cursor: pointer;
+    box-shadow: 0 7px #1a7940;
+}
+
+.message:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+}
+
+
+
+
+
+
+.footer {
+    background-color: #42adf5;
+    color: #fff;
+    height: 80px;
+    padding: 40px;
+    font-family: 'Gill Sans';
+    letter-spacing: 2px;
+}
+
+
+
+
+.social-media-button {
+    border: none;
+    color: #FFFFFF;
+    /* WHITE */
+    font-size: 16px;
+    padding: 0.5em 1em;
+}
+
+.social-media-button:hover {
+    opacity: 0.9;
+}
+
+.social-media-button.icon:before {
+    font-family: "Ionicons";
+    padding-right: 0.5em;
+}
+
+
+
+
+
+.social-media-button.icon.facebook:before {
+    content: "\f231";
+    /* Lihat http://ionicons.com/cheatsheet.html */
+}
+
+.social-media-button.facebook {
+    background: #3b5998;
+}
+
+
+.social-media-button.icon.whatsapp:before {
+    content: "\f4f0";
+}
+
+.social-media-button.whatsapp {
+    background: #43d854;
+}
+
+.social-media-button.icon.instagram:before {
+    content: "\f351";
+}
+
+.social-media-button.instagram {
+    background: #517fa4;
+}
+
+
+
+.footer-logo {
+    float: left;
+    font-size: 32px;
+}
+
+.footer-logo h1 {
+    font-size: 20px;
+
+
+}
+
+.footer-list {
+    float: right;
+}
+
+.footer-list p {
+    text-align: right;
+    padding-top: 40px;
+}
